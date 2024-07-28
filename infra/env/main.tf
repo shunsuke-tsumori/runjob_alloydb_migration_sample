@@ -12,7 +12,8 @@ terraform {
   }
 }
 
-resource "google_storage_bucket" "random14573092305" {
-  location = "asia-northeast1"
-  name     = "random14573092305"
+module "database" {
+  source = "../module/database"
+
+  password = var.password
 }

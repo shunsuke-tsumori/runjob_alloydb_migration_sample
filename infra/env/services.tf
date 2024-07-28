@@ -3,6 +3,7 @@ locals {
     "run.googleapis.com",
     "cloudbuild.googleapis.com",
     "servicenetworking.googleapis.com",
+    "alloydb.googleapis.com",
   ])
 }
 
